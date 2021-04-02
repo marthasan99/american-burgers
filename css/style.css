@@ -13,7 +13,8 @@
     font-family: 'Montserrat', sans-serif;*/
 .head{
 	position: absolute;
-	z-index: 100
+	z-index: 1;
+	left: 113px;
 }
 .nav{
 	display: flex;
@@ -23,6 +24,7 @@
 }
 .logo img{
 	width: 100%;
+	margin-top: 10px;
 }
 .menu{
 	flex-basis: 65%;
@@ -56,12 +58,116 @@
 .banner{
 	position: relative;
 	z-index: -1;
-}
-.banner-content{
-	background: url(../img/banner.png);
+	background: url(../img/banner-bg.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
+}
+.banner-content{
+	background: url(../img/banner-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.nav2{
+	display: flex;
+	width: 100%;
+}
+.banenr-text{
+	flex-basis: 35%;
+}
+.banner-text h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	border: 2px dashed black;
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 200px;
+}
+.banner-text h1{
+	font-size: 114px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+}
+.banner-text h2{
+	font-size: 56px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+}
+.banner-img{
+	flex-basis: 65%
+}
+.banner-img img{
+	width: 100%;
+	margin-top: 54px;
+	position: relative;
+}
+.circle{
+	width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    z-index: 10;
+    right: 422px;
+    top: 415px;
+}
+.circle2{
+	width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    position: absolute;
+    z-index: 10;
+    right: 430px;
+    top: 423px;
+}
+.burger-text{
+	position: absolute;
+    z-index: 100;
+    right: 438px;
+    top: 444px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    line-height: 40px;
+}
+.t49{
+	font-size: 18px;
+}
+.only{
+	letter-spacing: .3em;
+}
+
+.cat{
+	margin-top: 40px;
+	height: 70%;
+}
+.nav3{
+	display: flex;
+	justify-content: space-around;
+}
+.nav3 img{
+	width: 100%;
+	margin: 13px;
+}
+.left{
+	flex-basis: 45%;
+}
+.img1{
+	position: relative;
+}
+.right{
+	flex-basis: 45%;
+}
+.img1text{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	font-family: 'Bebas Neue', cursive;
+	color: red;
 }
