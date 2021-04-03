@@ -6,7 +6,7 @@
 	width: 1140px;
 	margin: 0px auto;
 }
-    /*ont-family: 'Alfa Slab One', cursive;
+    /*font-family: 'Alfa Slab One', cursive;
 
     font-family: 'Bebas Neue', cursive;
 
@@ -66,12 +66,7 @@
 	width: 100%;
 }
 .banner-content{
-	background: url(../img/banner-bg.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	width: 100%;
+	
 }
 .nav2{
 	display: flex;
@@ -137,6 +132,7 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: .2em;
 }
 .t49{
 	font-size: 18px;
@@ -236,4 +232,143 @@
 .cat-btn button a{
 	text-decoration: none;
 	color: #3d2514;
+}
+
+.order{
+	margin-top: 40px;
+}
+.order-content{
+	text-align: center;
+}
+.order-content h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+}
+.order-content p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.nav4{
+	display: flex;
+	justify-content: space-around;
+}
+.order-item1{
+	flex-basis: 30%;
+	margin-top: 40px;
+}
+.order-item1 img{
+	width: 100%;
+}
+.nav5{
+	display: flex;
+	justify-content: space-around;
+}
+.order-item2{
+	flex-basis: 30%;
+	margin: 5px;
+}
+.order-item2 h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 36px;
+}
+.order-item2 button{
+	background: #bf2222;
+	color: white;
+	width: 150px;
+	height: 40px;
+	border: none;
+	margin-top: 20px;
+}
+.order-item2 button a{
+	font-size: 16px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+}
+
+
+.gal{
+	margin-top: 40px;
+}
+.gal-item{
+	padding: 40px;
+	box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 35%);
+}
+.nav6{
+	display: flex;
+	justify-content: space-around;
+}
+.gal-text{
+	flex-basis: 45%;
+}
+.gal-text h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: #3d2514;
+}
+.gal-text h1{
+	font-size: 42px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.gal-text p{
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #3d3d3d;
+}
+.gal-img{
+	flex-basis: 45%;
+}
+.gal-img img{
+	width: 100%;
+}
+
+.reservation{
+	width: 100%;
+	height: 100vh;
+	margin-top: 40px;
+	background: url(../img/img8.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.res-content{
+	text-align: center;
+}
+.res-content h3{
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	margin-bottom: 20px;
+	letter-spacing: .2em;
+}
+.res-content h1{
+	font-size: 50px;
+	font-family: 'Alfa Slab One', cursive; 
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: .2em;
+	margin-bottom: 40px;
+}
+.line1 input{
+	width: 360px;
+	height: 50px;
+	margin: 10px;
+}
+
+.line1 button{
+	width: 360px;
+	height: 50px;
+	margin: 10px;
+	background: red;
+	border: none;
+	border-radius: 5px;
+}
+.line1 button a{
+	text-decoration: none;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 20px;
+	color: white;
+	letter-spacing: .2em;
 }
