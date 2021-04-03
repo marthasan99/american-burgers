@@ -372,3 +372,58 @@
 	color: white;
 	letter-spacing: .2em;
 }
+.footer-item{
+	background: url(../img/image10.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 70vh;
+}
+.nav7{
+	display: flex;
+	justify-content: space-between;
+}
+.nav7-left{
+	flex-basis: 40%;
+	margin: 80px 40px;
+}
+.nav7-left img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.nav7-left p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.nav7-right{
+	flex-basis: 25%;
+	margin-right: 30px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 256px;
+	padding-right: 40px;
+	line-height: 26px;
+	letter-spacing: .05em;
+}
+.nav8{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.rights{
+	flex-basis: 25%;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	margin-left: 40px;
+}
+.icons{
+	flex-basis: 20%
+}
+.icons i{
+	margin-left: 10px;
+	color: white;
+}
